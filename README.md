@@ -1,2 +1,2 @@
-# so_you_want_to_make_a_vn
+# So you want to make a Visual Novel
 A story to Better introduce people in the art of making a VN
