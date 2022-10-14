@@ -25,16 +25,31 @@ label vn_needs:
     p "When considering a new feature, think about what it adds to the game, and if the game would be incomplete or suffer if the feature wasn't in there. Sometimes a feature might be cool to add, but should be left to the end of your pipeline in case you want or need to cut it."
     pn """
     - Sound and Music. Sound effects and background music can add a lot of atmosphere to a game, but some games choose not to include them and work just fine without them.
+
     - Additional Options Menus. Adding new options to your menus, like an on/off switch for showing the main character's image, will be adding another job for the coding. You may also want to be careful your options menus aren't too crowded for a player to easily navigate.
+    
     - Galleries and Collectibles. It can be nice for players to have a place to view the CG images they've unlocked by playing the game, or to view other things like character profiles or extra scenes.
+    
     - Mini Games. These are one of the more controversial options, some people love mini games that add to the gameplay, but some people prefer a visual novel to focus on reading and making choices as the core gameplay. Mini games are often some of the harder things to add in as the code is more complex, so this is something to take into consideration.
+    
+    - Voice Acting. This is a big one, and it is worth looking at your pros and cons for including it. A lot of Indie VNs will not have full voice acting and can still be popular. Adding it will mean recording lines in good quality, coding in the sound files, and of course auditions and directing the voice actors to get the right performance.
+    
     - Disabling Built-in Features. Even more controversial is choosing to disable rollback, or to change or remove other general features that are built in to Ren'py. Generally this is not advisable, even if it is possible to do, because players may become frustrated when they're not able to enjoy the game in the way they wish to.
+    
     - Other. This might seem pretty self-explanatory, but any feature you're adding to your game is adding more work to it, and often requires more skill. If you already know your way around code, or have someone on your team who does, that's great! But you might still want to put any extra features in a priority list, so you work on the most important first.
     """   
     nvl clear
     nvl hide
     p "So, that covers the basics of what makes a Visual Novel game, but there's a lot more to each part, and more background work that isn't mentioned here."
-    call overviews_return
+    $ persistent_overviewneeds = True
+    if returntoassets == True:
+        menu: "Go back to assets section?"
+        "Yes, return to assets section.":
+            jump assets_list_2
+        "No, show Overviews Menu instead.":
+            call overviews_return  
+    else:
+        call overviews_return
 
 label pipeline:
     p "Writing out your pipeline is a good way to make sure you have a priority list of jobs that need to be done, when you want to complete them by, and if you're working with other people it's a useful way to assign tasks."
@@ -48,13 +63,15 @@ label pipeline:
     pn """
     Alpha
     
-    1. Make a list of backgrounds, characters, and CGs.
+    1. Write and code the dialogue and choices, first draft, for either the whole game or a demo segment.
 
-    2. Decide on the game's resolution, and the size of the images.
+    2. Make a list of backgrounds, characters, and CGs.
 
-    3. Find placeholder images, and/or draw concept art.
+    3. Decide on the game's resolution, and the size of the images.
 
-    4. Put the placeholders/concepts into the game and test.
+    4. Find placeholder images, and/or draw concept art.
+
+    5. Put the placeholders/concepts into the game and test.
 
     """
     nvl clear
@@ -68,18 +85,22 @@ label pipeline:
     3. Add in the expressions for the sprites. 
 
     4. Replace the placeholders with the new images.
+
+    5. Go over the writing and make a second draft with any edits you need.
     """
     nvl clear
     pn """
     Silver
 
-    1. Add shading and final effects to all of the images.
+    1. Finalise the full dialogue script with any remaining drafts and edits.
 
-    2. Replace the images in the game with the finals.
+    2. Add shading and final effects to all of the images, and add any images if required for the final draft.
 
-    3. Check the expressions in the game.
+    3. Replace the images in the game with the finals.
 
-    4. Review with testers if any last minute changes are needed.
+    4. Check the expressions in the game.
+
+    5. Review with testers if any last minute changes are needed.
     """
     nvl clear
     pn """
@@ -87,16 +108,19 @@ label pipeline:
 
     1. Check the quality of all images and how they look in the game.
 
-    2. Make any edits if necessary.
+    2. Make any last minute edits if necessary.
 
     3. Add in any optional visual effects or special transitions.
 
-    4. Review and fully test all images for the final time before building.
+    4. Review and fully test all images and features for the final time before building the release version.
+
+    5. Take a few deep breaths and remember that no matter how well you tested it, there may still be errors to patch later.
     """
     nvl clear
     nvl hide
     p "This might not look like a huge list on the surface, and Gold is very similar to Silver, but by the time you hit Silver you should be getting close to release levels."
     p "When you have your full pipeline, it might also look a bit intimidating, but that's also why it is helpful to break it down into these smaller tasks and stages. Ticking off a job done can help to keep up motivation and a feeling of accomplishment."
+    p "Clear and itemised lists will also help a lot if you are commissioning items or working with a team - more on that later!"
     p "That said, it can easy to fall into a planning trap and take a long time to get started! Work out what kind of list works for you, whether you need something more detailed or if you work better with a simpler short overview."
     call overviews_return
 
@@ -189,7 +213,7 @@ label game_scope:
 
     - Limit your locations. It might be great to have an adventure story, travelling across vast landscapes with lots of fun new locations, but keep in mind every new location is likely going to need a new background. It won't really work to have open fields for a scene in the middle of a forest, or the Eiffel Tower in a scene set in the centre of Denmark.
 
-    - Reuse your assets. If you have 3 shops across your story, you can likely use the same shop background. Or you can change it slightly by swapping around a few items on the same counters, changing the colour scheme, and/or flipping the image horizontally. Have characters show up in different storylines, reuse sound effects for similar situations, if you can reuse something without it being intrusive or nonsensical then you probably should.
+    - Reuse your assets. If you have 3 shops across your story, you can likely use the same shop background. Or you can change it slightly by swapping around a few items on the same counters, changing the colour scheme, and/or flipping the image horizontally. Have characters show up in different storylines, reuse sound effects for similar situations, if you can reuse something without it being intrusive or nonsensical then you probably should - even big studios do this!
 
     - Keep the expressions simple. There can be a lot of nuance in facial expressions and body language of sprites, but you don't necessarily need to show every tiny change. You likely don't need to show the player the difference between shocked and scared, or shy and embarrassed, if the expression is close enough to both to work.
 
@@ -209,7 +233,7 @@ label what_else:
     
     - What kind of game do you want to make? What games are already out there that are similar? Have a look at what you can learn from them before you start, the things you like and dislike, and how this might relate to what you want to do when making your own game.
 
-    - Who is your target audience, and what do they want from a game? I'll preface this one with \"your first target audience needs to be YOU, make the game you want to play.\" But I know you want to make the game for other people to play, too. Look for their opinions and use them as a guideline, but not a hard rule, for what you want to make.
+    - Who is your target audience, and what do they want from a game? I'll preface this one with: \"Your first target audience needs to be YOU, make the game you want to play.\" But I know you want to make the game for other people to play, too. Look for their opinions and use them as a guideline, but not a hard rule, for what you want to make.
     
     - Existing research. For some genres, like Otome, there's already some great market research articles analysing the opinions of people who play those games. But you may also want to do your own questionnaire to pass out to potential players and see what things they might want to see, or not see, in a game like yours. Again, these should be guidelines - sometimes people find themselves loving something they don't normally enjoy so it can be worth the risk for variety!
 

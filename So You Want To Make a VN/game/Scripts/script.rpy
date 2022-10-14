@@ -8,14 +8,17 @@ menu:
     "Hi?...":
         p "Nice to meet you, friend! My name is Mr Placeholder, because the writer of this mini project is very bad at names. And art. And lots of things."
     "Skip to the menus, please." if persistent_firstcomplete:
+        jump menu1
 
-    p "Anyway, you want to make your very own Visual Novel Game, right? Well here's the basics of what you might want to include!"
+    p "Anyway, you want to make your very own Visual Novel Game, right? Well here's the basics of what you might want to include, as well as some frequently asked about topics in the Indie Dev community."
     p "This tutorial game won't cover anything in detail, like how to learn Ren'py code, because other tutorials have that covered in far better detail than I could ever hope to. You'll find links later or in the About section of the main menu."
     p "Lots of projects get started, but some never make it to the finish line. This could be for many reasons, but sometimes it's because we don't realise all of the little parts that are needed for a finished game - even a small one has more to it than you might think!"
     p "And that's where we come in here! This guide will give you an idea of the amount of work needed to produce and publish a finished Visual Novel Game. We want to see lots of people succeed, and the way to success is knowing what's ahead."
-    p "So the best place to start is planning. You don't need to plan every detail right away, but it is good to know"
+    p "It might look intimidating, but please don't be discouraged! With a bit of work and preparation, almost anyone can make a Visual Novel game, and that includes, you, friend!"
+    p "So the best place to start is planning. You don't need to plan every detail right away, but it is good to know."
     p "Most games have some kind of plan to making them, this is usually called a Pipeline or Production Pipeline."
 menu:
+    "Do you want an overview of Pipelines?"
     "I know what a Pipeline is.":
         p "Great, we'll move on then! You might want to make notes as this project will cover the main topics you'll want to think about including in your own pipeline."
         p "Remember to work out your Alpha, Beta, Silver and Gold targets, and be prepared to alter your goals as you go along if you need to."
@@ -41,12 +44,10 @@ menu:
     "Which section would you like to view next?"
     "Overviews and General":
         jump overviews_menu
-    "Assets - Music, Sound, Art, etc":
+    "Assets - Writing, Music, Sound, Art, etc":
         jump assets_menu
     "Job Roles, Solo Devs, Teams, and Hiring":
         jump jobs_menu
-    "Writing":
-        jump writing_menu
     "Legal Considerations and Age Ratings":
         jump legal_menu
     "Finishing Touches, Marketing, and Releasing":
@@ -83,29 +84,74 @@ menu:
         jump menu1
 
 label assets_menu:
+menu:
+    "Which topic would you like to view next?"
 
+    "What are assets, and what do I need in my VN?":
+        jump assets_list
+    "How do I find, buy, commission, or make assets?":
+        jump assets_get
+    "Music":
+        jump assets_music
+    "Art":
+        jump assets_art
+    "Sound Effects":
+        jump assets_sound
+    "GUI":
+        jump assets_gui
+    "Writing":
+        jump assets_writing
+    "Code and Extra Features":
+        jump assets_code
+    "Voice Acting":
+        jump assets_voice
+    
     "Go back to Section Selection":
         jump menu1
 
 label jobs_menu:
+menu:
+    "Which topic would you like to view next?"
+    "What jobs and roles are involved in making a VN?":
+        jump roles
+    "How do I find a team to work with, and what do I need to know for working in teams?":
+        jump teams
+    "What do I need to know if I'm working solo?":
+        jump solo 
+
     "Go back to Section Selection":
         jump menu1
-label writing_menu:
-    "Go back to Section Selection":
-        jump menu1
+        
 label legal_menu:
+    "{i}{b}As a disclaimer, none of this is official legal advice. Always check the laws for individual regions where appropriate.{/b}{/i}"
+menu:
+    "Which topic would you like to view next?"
+    "What do I do if I want to make a fan game?":
+        jump fangames
+    "What about modding (modifying) an existing game?":
+        jump modding
+    "How do I stop piracy?":
+        jump piracy
+    "Age Ratings and Content Warnings":
+        jump content_age
+    "General Legal Concerns":
+        jump general_legal
     "Go back to Section Selection":
         jump menu1
 label finishing_menu:
+    "Which topic would you like to view next?"
     "Go back to Section Selection":
         jump menu1
 label code_menu:
+    "Which topic would you like to view next?"
     "Go back to Section Selection":
         jump menu1
 label access_menu:
+    "Which topic would you like to view next?"
     "Go back to Section Selection":
         jump menu1
 label resources_menu:
+    "Which topic would you like to view next?"
     "Go back to Section Selection":
         jump menu1
 
