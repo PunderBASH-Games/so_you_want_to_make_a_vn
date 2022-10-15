@@ -94,5 +94,127 @@ label content_age:
     nvl clear 
     #continue from here, add content warning shit. Why give warnings, what warnings to give, how to provide warnings without spoiling surprises, etc
     """
-    content warning stuff
+    A Brief Guide to Content Warnings
+
+    Aside from age ratings, you may also want to consider content warnings. 
+    
+    This will allow people to avoid topics that they may find to be disturbing or even harmful to their mental health. It can also apply for things like flashing images or other sounds and images that could trigger episodes of physical health issues such as migraines or epilepsy.
+    
+    Content warnings are a way of being considerate to your audience. When your game is available to the public, you no longer know everyone who will have access to it or who might play it, or what they may need to avoid in there games.
+
+    Of course, sometimes you might not want to be too specific because a specific content warning might spoil a big plot twist in your game! But this is where you can allow the players the option to view content warnings if they want to or skip them if they don't.
+
+    You can do this by having basic content warnings on your main store page (for example, "this game contains violence and graphic imagery"), and then have a link to another page which would show people more detail on the specifics they might encounter if they know there are things they would not want to encounter in a game.
+
+    You can also do this inside your game, by using some nested labels and even warning people that the specifics may spoil some of your surprises. 
+
+    That said, having warnings inside your game is not a substitute for general topic content warnings on your store page. If people find out after they have downloaded your game that it contains unsuitable content, you'll only have an unhappy customer and a refund to deal with.
+
+    Some people might feel that giving content warnings is unreasonable or partonising to your audience, or even reducing your potential audience size.
+    
+    However what you will more likely find from your players and potential players is that those people who do not need content warnings will ignore them, but those people who {i}do{/i} need them will appreciate them and may even be more willing to try the game because they know what to expect and can prepare accordingly.
+
+    You don't need to warn for every little detail, but there are some broad topics that it is usually good to give warnings about. If you're not sure, see if any of the topics listed on {b}{a=https://www.doesthedogdie.com/}Does The Dog Die{/a}{/b} - this is a website made specifically to help people find and avoid difficult topics in media.
     """
+    nvl clear
+    nvl hide
+    p "So that's the general basics of how and why we may need to consider content warnings. Now let's have a look at how we might include more detailed warnings using simple choice menus in the game."
+    p "I'll give you an example of what this might look like for a fictional game we haven't made, and you will be given the choice to return to the top level menu so you don't have to save or skip back to the choices to see what the other options look like."
+label warning_menu_1:
+menu:
+    "This game contains content which some people may find disturbing. Do you wish to view the content warnings?"
+    "Yes, please show me the content warnings.":
+        jump warning_menu_example
+    "No thank you, please continue without viewing the content warnings.":
+        "OK. If you wish to view the content warnings, you may select the (icon on the main menu) or (choose this option from the main menu) or (visit website link for more details)."
+        p "What you say here is entirely up to you, as is where you make your warnings accessible. However, having the option to view the content warning should be before any of that content arises in the game."
+        jump after_warning_menu_1
+    
+label warning_menu_example:
+    "This game contains scenes including (violence, mild peril, and loss/bereavement). Further details may reveal plot twists that appear in the story. Would you like to see these details anyway?"
+menu:
+    "Would you like to view the detailed content warnings?"
+    "Yes, please show me the detailed warnings, even if it might spoil the story.":
+        "At some point in this game the main characters are involved in a fight with bladed weapons. At other times a character is held at gunpoint. One of the characters loses a parental figure and expresses their grief."
+        "The violence is shown at times using images containing blood and injury detail."
+        "If you find any of this content to be distressing, please do not continue to play unless you feel safe to do so."
+        p "So that's how you could handly a detailed warning, do you want to go back to the previous question?"
+        $ warningmenu2 = True
+        jump after_warning_menu
+    "No, I do not wish to view the detailed warnings.":
+        "OK. If you wish to view the content warnings, you may select the (icon on the main menu) or (choose this option from the main menu) or (visit website link for more details)."
+        p "So you can give the player the option to back out without seeing the specifics here, but leave them the ability to return to this menu to view them at a later date in case they wish to."
+        $ warningmenu2 = True
+        jump after_warning_menu
+
+label after_warning_menu:
+    p "Would you like to go back and see the other options?"
+menu:
+    "Return to the other options?"
+    "Return to first content warning menu.":
+        jump warning_menu_1
+    "Return to detailed content warning menu options." if warningmenu2:
+        jump warning_menu_example
+    "No thanks, continue to the end of the section, I have seen all the options I want to for now.":
+        jump content_age_end
+
+label content_age_end:
+    p "That covers one of the options you can give for how to tell your players they might encounter difficult content."
+    p "Some people may like to put inside their game the option to skip scenes containing certain content, if doing so would not compromise the story, but this is more work to do and entirely up to the development team if you feel it would improve your game to have it."
+    p "This might also be having the option to censor images with graphic content by having layered blocks over the image or by having an alternate version of the image - in essence, like the option to \"turn off blood\" in the early Mortal Kombat games."
+    p "Or you may have an option for players to skip or disable flashing images to enable those with conditions such as photosensitive epilepsy to enjoy your game without risking their health."
+    p "As long as you have given players the warning of the content and the option to avoid playing if these are things they are not comfortable with, then you have acted with a reasonable consideration for your players."
+    p "Obviously there may be some caveats here, like if you are making an erotic game then a general warning of nudity might not be necessary if it is clear to players that this is to be expected, however players might still want to avoid certain scenarios they dislike encountering in erotic content."
+    p "In general, use your best judgement, and where possible ask your Beta testers how they feel about your content warnings. If they're outside of the main creative team, they can be a better judge of what might need to be added, changed, or removed from your warnings."
+    p "Remember, it is about ensuring your players have the best experience possible with your game. Happy players can be loyal players, and bad reviews can quickly sink your reputation too!"
+    p "So, without further ado...or maybe a little ado? How do you feel about ado? Let's ado something about this terrible line and move on to the next topic."
+    jump legal_menu
+
+label general_legal:
+    "{i}{b}As a disclaimer, none of this is official legal advice. Always check the laws for individual regions where appropriate.{/b}{/i}"
+    p "So as a quick review, what are the main legal concerns when making a game?"
+    pn """
+    General Legal Concerns - {i}{b}As a disclaimer, none of this is official legal advice. Always check the laws for individual regions where appropriate.{/b}{/i}
+
+    Most of the legal considerations with making Visual Novels comes under 2 categories.
+
+    1. Who owns the content being distributed within the game?
+
+    2. Is it legal to distribute/sell the game in the target countries?
+
+    For the first one, it's all about your assets. Make sure you have ownership, licences, or permission for anything that goes into your game, and credit people where appropriate.
+
+    Anyone who has access to your game files before you build them should be aware of who owns each part of the content, and where they are and are not allowed to share that content.
+
+    Every last asset you use, even down to your fonts for the text, should be checked for permissions and protected in your final build. 
+    
+    Some assets, like some free to use fonts, might even have rules against having them available in game files outside of a build. So if you have the font inside your files on somewhere like GitHub where other people have access, that might be breaking the licence agreement because that raw file for the font is available for people to download in a usable format. 
+
+    When you build your game, your assets are compiled into a working game program which means people are not able to simply open the folder and access individual assets like the font or images. This means people cannot easily extract the usable font from the game files, giving it protection from being redistributed. 
+
+    If course, piracy is always a possibility, but if you are only distributing your game once it has been compiled and built you are likely doing enough to prevent any accusations of knowingly giving access to assets beyond the agreed usage.
+
+    If you are in any doubt over these topics, it is recommended to seek expert legal advice for your region. I am not a legal expert, and even if I were I would be unlikely to know every relevant law for all the possible regions you may be acting within. It is your responsibility to do your due diligence here, I can only give you some vague pointers.
+    
+    Regarding the second point, whether it is legal to distribute/sell your game in the target countries, again this will be down to you to check. 
+    
+    Look at the countries in which your game is available, and also familiarise yourself with the Terms and Conditions of the release platforms (eg, Steam, itch, app stores, etc). 
+
+    Keep your age rating and relevant content warnings clear, concise, and easy to access. Be aware that your age rating might differ across regions or even online release platforms. 
+
+    Again, if you are in any doubt, seek expert legal advice from someone with knowledge and experience of the relevant countries/regions. 
+
+    """
+    nvl clear 
+    nvl hide
+    p "In general, look after our work, and look out for each other within the dev community too."
+    p "If you see something concerning, raise that concern to the people involved."
+    p "If we are all able to help each other out, we are all more likely to succeed and less likely to get caught out by these kinds of topics."
+    p "But that's probably enough of the serious stuff, right? Or is it? Do you want to check out somre more of the legal topics or head on back to the section menu?"
+menu:
+    "Where do we go, oh, where do we go now, sweet child of miiiiiine~"
+    "Return to legal topics.":
+        jump legal_menu
+    "Back to section menu.":
+        jump menu1
+        
