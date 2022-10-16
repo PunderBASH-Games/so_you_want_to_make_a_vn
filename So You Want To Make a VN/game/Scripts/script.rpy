@@ -140,6 +140,9 @@ menu:
         jump menu1
 label finishing_menu:
     "Which topic would you like to view next?"
+    "What is marketing, and how do I approach marketing with an Indie VN?":
+        jump marketing
+    ""
     "Go back to Section Selection":
         jump menu1
 label code_menu:
