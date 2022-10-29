@@ -43,13 +43,18 @@ label vn_needs:
     p "So, that covers the basics of what makes a Visual Novel game, but there's a lot more to each part, and more background work that isn't mentioned here."
     $ persistent_overviewneeds = True
     if returntoassets == True:
-        menu: "Go back to assets section?"
-        "Yes, return to assets section.":
-            jump assets_list_2
-        "No, show Overviews Menu instead.":
-            call overviews_return  
+        jump returntoassetsmenu
     else:
-        call overviews_return
+        jump overviews_return
+
+label returntoassetsmenu:
+menu: 
+    "Go back to assets section?"
+    "Yes, return to assets section.":
+        jump assets_list_2
+    "No, show Overviews Menu instead.":
+        jump overviews_return  
+
 
 label pipeline:
     p "Writing out your pipeline is a good way to make sure you have a priority list of jobs that need to be done, when you want to complete them by, and if you're working with other people it's a useful way to assign tasks."
@@ -161,7 +166,7 @@ label motivation:
 
     - Take a break. Walk away, put it down, and do something completely different. Unless you're working on a jam or a tight deadline, taking time off from development is not always a bad idea. Tell yourself you're going back to it later, but for the here and now you're going to have a little holiday. Then when you go back, you'll be more refreshed and ready to go.
 
-    - Do something related to development, but not on your project. Keep the creative gears turning on something close to your project but not your actual project. Maybe this is writing a brief few paragraphs of "what if"s scenes for your characters, or maybe it's drawing some fanart for something else you love. Whatever you feel like!
+    - Do something related to development, but not on your project. Keep the creative gears turning on something close to your project but not your actual project. Maybe this is writing a brief few paragraphs of \"what if\"s scenes for your characters, or maybe it's drawing some fanart for something else you love. Whatever you feel like!
 
     - Go back to the drawing board. This doesn't mean starting again, it just means going back to your planning and looking over things again. See if there's anything you want to change, or just check over the things you've done.
 

@@ -1,20 +1,1040 @@
-Fri Oct  7 18:53:52 2022
+Mon Oct 17 00:27:47 2022
 Windows-10-10.0.22621
 Ren'Py 8.0.3.22090809
  
 
 Bootstrap to the start of init.init took 0.02s
 Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata. took 0.00s
+Loading persistent took 0.00s
+
+File "game/Scripts/guidetoassets.rpy", line 50: end of line expected.
+    menu: "Which method would you like to view?"
+          ^
+
+File "game/Scripts/legalstuff.rpy", line 96: end of line expected.
+(Perhaps you left out a " at the end of the first line.)
+    """
+        A Brief Guide to Content Warnings
+    
+        Aside from age ratings, you may also want to consider content warnings. 
+        
+        This will allow people to avoid topics that they may find to be disturbing or even harmful to their mental health. It can also apply for things like flashing images or other sounds and images that could trigger episodes of physical health issues such as migraines or epilepsy.
+        
+        Content warnings are a way of being considerate to your audience. When your game is available to the public, you no longer know everyone who will have access to it or who might play it, or what they may need to avoid in there games.
+    
+        Of course, sometimes you might not want to be too specific because a specific content warning might spoil a big plot twist in your game! But this is where you can allow the players the option to view content warnings if they want to or skip them if they don't.
+    
+        You can do this by having basic content warnings on your main store page (for example, "this game contains violence and graphic imagery"), and then have a link to another page which would show people more detail on the specifics they might encounter if they know there are things they would not want to encounter in a game.
+                                                                                                           ^
+    
+        You can also do this inside your game, by using some nested labels and even warning people that the specifics may spoil some of your surprises. 
+    
+        That said, having warnings inside your game is not a substitute for general topic content warnings on your store page. If people find out after they have downloaded your game that it contains unsuitable content, you'll only have an unhappy customer and a refund to deal with.
+    
+        Some people might feel that giving content warnings is unreasonable or partonising to your audience, or even reducing your potential audience size.
+        
+        However what you will more likely find from your players and potential players is that those people who do not need content warnings will ignore them, but those people who {i}do{/i} need them will appreciate them and may even be more willing to try the game because they know what to expect and can prepare accordingly.
+    
+        You don't need to warn for every little detail, but there are some broad topics that it is usually good to give warnings about. If you're not sure, see if any of the topics listed on {b}{a=https://www.doesthedogdie.com/}Does The Dog Die{/a}{/b} - this is a website made specifically to help people find and avoid difficult topics in media.
+        """
+
+File "game/Scripts/overviews.rpy", line 46: menu statement expects a non-empty block.
+    menu: "Go back to assets section?"
+        ^
+
+File "game/Scripts/overviews.rpy", line 47: expected statement.
+    "Yes, return to assets section.":
+                                    ^
+
+File "game/Scripts/overviews.rpy", line 49: expected statement.
+    "No, show Overviews Menu instead.":
+                                      ^
+
+File "game/Scripts/overviews.rpy", line 151: end of line expected.
+(Perhaps you left out a " at the end of the first line.)
+    pn """
+         ^
+        Ideas to help you get motivated:
+        
+        - Listen to music. Headphones can also help to tune out distractions and get you focusing in on the work at hand. Pick some playlists, make some new ones, or just put something on that makes you feel inspired.
+    
+        - Play some games. No, really! Either replay that VN that inspired you to make your own, or play some new VN games that you haven't played before. The secret part here is you can class it as research by making a few notes on tropes/features that you like/dislike and want to include/avoid in your game!
+    
+        - Switch tasks. If you're working on more than one part of your game (for example, writing and background art) then if you're hitting a creative wall on one task switch to a different task. Go back to the other one when you feel ready to. Variety can help the work feel fresh and interesting.
+    
+        - Talk to people. Dev communities, like the Ren'py discord server, can be really good places to find motivation and inspiration. Talk to your team if you have one too, but if you're a solo dev you can really increase your chances of finishing your project by talking to fellow developers about the process.
+    
+        - Take a break. Walk away, put it down, and do something completely different. Unless you're working on a jam or a tight deadline, taking time off from development is not always a bad idea. Tell yourself you're going back to it later, but for the here and now you're going to have a little holiday. Then when you go back, you'll be more refreshed and ready to go.
+    
+        - Do something related to development, but not on your project. Keep the creative gears turning on something close to your project but not your actual project. Maybe this is writing a brief few paragraphs of "what if"s scenes for your characters, or maybe it's drawing some fanart for something else you love. Whatever you feel like!
+    
+        - Go back to the drawing board. This doesn't mean starting again, it just means going back to your planning and looking over things again. See if there's anything you want to change, or just check over the things you've done.
+    
+        - Play your own game. Hit the launch button and play through what you already have, even if it isn't anywhere near done. Seeing the parts in place and looking at how it is coming together can be great motivation to keep going to make it better, and it's also handy to keep testing for bugs and keep an eye out for errors.
+        """
+
+File "game/Scripts/script.rpy", line 14: Only one say menuitem may exist per menu.
+    p "This tutorial game won't cover anything in detail, like how to learn Ren'py code, because other tutorials have that covered in far better detail than I could ever hope to. You'll find links later or in the About section of the main menu."
+                                                                                                                                                                                                                                                     ^
+
+File "game/Scripts/script.rpy", line 36: Say menuitems and captions may not exist in the same menu.
+    p "So we might want to make a pipeline of the jobs we need to do, but what exactly does a Visual Novel need?"
+                                                                                                                 ^
+
+File "game/Scripts/script.rpy", line 143: expected statement.
+    "What is marketing, and how do I approach marketing with an Indie VN?":
+                                                                          ^
+
+File "game/Scripts/script.rpy", line 145: expected statement.
+    "What are the last things I should be doing to finish my game before releasing it?":
+                                                                                       ^
+
+File "game/Scripts/script.rpy", line 147: expected statement.
+    "How do I build and release my game when it is complete?":
+                                                             ^
+
+File "game/Scripts/script.rpy", line 150: expected statement.
+    "Go back to Section Selection":
+                                  ^
+
+File "game/Scripts/script.rpy", line 154: expected statement.
+    "Go back to Section Selection":
+                                  ^
+
+File "game/Scripts/script.rpy", line 158: expected statement.
+    "Go back to Section Selection":
+                                  ^
+
+File "game/Scripts/script.rpy", line 163: expected statement.
+    "Tutorials and Guides":
+                          ^
+
+File "game/Scripts/script.rpy", line 165: expected statement.
+    "Assets":
+            ^
+
+File "game/Scripts/script.rpy", line 167: expected statement.
+    "Communities":
+                 ^
+
+File "game/Scripts/script.rpy", line 170: expected statement.
+    "Go back to Section Selection":
+                                  ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.17s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3080 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 516.59'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+- 64px textures work.
+- 128px textures work.
+- 256px textures work.
+- 512px textures work.
+- 1024px textures work.
+- 2048px textures work.
+Screen sizes: virtual=(1920, 1080) physical=(2379, 1338) drawable=(2379, 1338)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Screen sizes: virtual=(1920, 1080) physical=(1500, 1181) drawable=(1500, 1181)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Screen sizes: virtual=(1920, 1080) physical=(2008, 1228) drawable=(2008, 1228)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 613.59s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.03s
+Loading script took 0.42s
+Loading save slot metadata. took 0.00s
+Loading persistent took 0.00s
+
+File "game/Scripts/legalstuff.rpy", line 96: end of line expected.
+(Perhaps you left out a " at the end of the first line.)
+    pn """
+         ^
+        A Brief Guide to Content Warnings
+    
+        Aside from age ratings, you may also want to consider content warnings. 
+        
+        This will allow people to avoid topics that they may find to be disturbing or even harmful to their mental health. It can also apply for things like flashing images or other sounds and images that could trigger episodes of physical health issues such as migraines or epilepsy.
+        
+        Content warnings are a way of being considerate to your audience. When your game is available to the public, you no longer know everyone who will have access to it or who might play it, or what they may need to avoid in there games.
+    
+        Of course, sometimes you might not want to be too specific because a specific content warning might spoil a big plot twist in your game! But this is where you can allow the players the option to view content warnings if they want to or skip them if they don't.
+    
+        You can do this by having basic content warnings on your main store page (for example, "this game contains violence and graphic imagery"), and then have a link to another page which would show people more detail on the specifics they might encounter if they know there are things they would not want to encounter in a game.
+    
+        You can also do this inside your game, by using some nested labels and even warning people that the specifics may spoil some of your surprises. 
+    
+        That said, having warnings inside your game is not a substitute for general topic content warnings on your store page. If people find out after they have downloaded your game that it contains unsuitable content, you'll only have an unhappy customer and a refund to deal with.
+    
+        Some people might feel that giving content warnings is unreasonable or partonising to your audience, or even reducing your potential audience size.
+        
+        However what you will more likely find from your players and potential players is that those people who do not need content warnings will ignore them, but those people who {i}do{/i} need them will appreciate them and may even be more willing to try the game because they know what to expect and can prepare accordingly.
+    
+        You don't need to warn for every little detail, but there are some broad topics that it is usually good to give warnings about. If you're not sure, see if any of the topics listed on {b}{a=https://www.doesthedogdie.com/}Does The Dog Die{/a}{/b} - this is a website made specifically to help people find and avoid difficult topics in media.
+        """
+
+File "game/Scripts/overviews.rpy", line 46: menu statement expects a non-empty block.
+    menu: 
+        ^
+
+File "game/Scripts/overviews.rpy", line 48: expected statement.
+    "Yes, return to assets section.":
+                                    ^
+
+File "game/Scripts/overviews.rpy", line 50: expected statement.
+    "No, show Overviews Menu instead.":
+                                      ^
+
+File "game/Scripts/overviews.rpy", line 152: end of line expected.
+(Perhaps you left out a " at the end of the first line.)
+    pn """
+         ^
+        Ideas to help you get motivated:
+        
+        - Listen to music. Headphones can also help to tune out distractions and get you focusing in on the work at hand. Pick some playlists, make some new ones, or just put something on that makes you feel inspired.
+    
+        - Play some games. No, really! Either replay that VN that inspired you to make your own, or play some new VN games that you haven't played before. The secret part here is you can class it as research by making a few notes on tropes/features that you like/dislike and want to include/avoid in your game!
+    
+        - Switch tasks. If you're working on more than one part of your game (for example, writing and background art) then if you're hitting a creative wall on one task switch to a different task. Go back to the other one when you feel ready to. Variety can help the work feel fresh and interesting.
+    
+        - Talk to people. Dev communities, like the Ren'py discord server, can be really good places to find motivation and inspiration. Talk to your team if you have one too, but if you're a solo dev you can really increase your chances of finishing your project by talking to fellow developers about the process.
+    
+        - Take a break. Walk away, put it down, and do something completely different. Unless you're working on a jam or a tight deadline, taking time off from development is not always a bad idea. Tell yourself you're going back to it later, but for the here and now you're going to have a little holiday. Then when you go back, you'll be more refreshed and ready to go.
+    
+        - Do something related to development, but not on your project. Keep the creative gears turning on something close to your project but not your actual project. Maybe this is writing a brief few paragraphs of "what if"s scenes for your characters, or maybe it's drawing some fanart for something else you love. Whatever you feel like!
+    
+        - Go back to the drawing board. This doesn't mean starting again, it just means going back to your planning and looking over things again. See if there's anything you want to change, or just check over the things you've done.
+    
+        - Play your own game. Hit the launch button and play through what you already have, even if it isn't anywhere near done. Seeing the parts in place and looking at how it is coming together can be great motivation to keep going to make it better, and it's also handy to keep testing for bugs and keep an eye out for errors.
+        """
+
+File "game/Scripts/script.rpy", line 14: Only one say menuitem may exist per menu.
+    p "This tutorial game won't cover anything in detail, like how to learn Ren'py code, because other tutorials have that covered in far better detail than I could ever hope to. You'll find links later or in the About section of the main menu."
+                                                                                                                                                                                                                                                     ^
+
+File "game/Scripts/script.rpy", line 36: Say menuitems and captions may not exist in the same menu.
+    p "So we might want to make a pipeline of the jobs we need to do, but what exactly does a Visual Novel need?"
+                                                                                                                 ^
+
+File "game/Scripts/script.rpy", line 143: expected statement.
+    "What is marketing, and how do I approach marketing with an Indie VN?":
+                                                                          ^
+
+File "game/Scripts/script.rpy", line 145: expected statement.
+    "What are the last things I should be doing to finish my game before releasing it?":
+                                                                                       ^
+
+File "game/Scripts/script.rpy", line 147: expected statement.
+    "How do I build and release my game when it is complete?":
+                                                             ^
+
+File "game/Scripts/script.rpy", line 150: expected statement.
+    "Go back to Section Selection":
+                                  ^
+
+File "game/Scripts/script.rpy", line 154: expected statement.
+    "Go back to Section Selection":
+                                  ^
+
+File "game/Scripts/script.rpy", line 158: expected statement.
+    "Go back to Section Selection":
+                                  ^
+
+File "game/Scripts/script.rpy", line 163: expected statement.
+    "Tutorials and Guides":
+                          ^
+
+File "game/Scripts/script.rpy", line 165: expected statement.
+    "Assets":
+            ^
+
+File "game/Scripts/script.rpy", line 167: expected statement.
+    "Communities":
+                 ^
+
+File "game/Scripts/script.rpy", line 170: expected statement.
+    "Go back to Section Selection":
+                                  ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.15s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3080 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 516.59'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(2379, 1338) drawable=(2379, 1338)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 683.04s
+Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.01s
-Loading script took 0.04s
+Loading script took 0.09s
+Loading save slot metadata. took 0.00s
+Loading persistent took 0.00s
+
+File "game/Scripts/overviews.rpy", line 46: menu statement expects a non-empty block.
+    menu: 
+        ^
+
+File "game/Scripts/overviews.rpy", line 48: expected statement.
+    "Yes, return to assets section.":
+                                    ^
+
+File "game/Scripts/overviews.rpy", line 50: expected statement.
+    "No, show Overviews Menu instead.":
+                                      ^
+
+File "game/Scripts/overviews.rpy", line 152: end of line expected.
+(Perhaps you left out a " at the end of the first line.)
+    pn """
+         ^
+        Ideas to help you get motivated:
+        
+        - Listen to music. Headphones can also help to tune out distractions and get you focusing in on the work at hand. Pick some playlists, make some new ones, or just put something on that makes you feel inspired.
+    
+        - Play some games. No, really! Either replay that VN that inspired you to make your own, or play some new VN games that you haven't played before. The secret part here is you can class it as research by making a few notes on tropes/features that you like/dislike and want to include/avoid in your game!
+    
+        - Switch tasks. If you're working on more than one part of your game (for example, writing and background art) then if you're hitting a creative wall on one task switch to a different task. Go back to the other one when you feel ready to. Variety can help the work feel fresh and interesting.
+    
+        - Talk to people. Dev communities, like the Ren'py discord server, can be really good places to find motivation and inspiration. Talk to your team if you have one too, but if you're a solo dev you can really increase your chances of finishing your project by talking to fellow developers about the process.
+    
+        - Take a break. Walk away, put it down, and do something completely different. Unless you're working on a jam or a tight deadline, taking time off from development is not always a bad idea. Tell yourself you're going back to it later, but for the here and now you're going to have a little holiday. Then when you go back, you'll be more refreshed and ready to go.
+    
+        - Do something related to development, but not on your project. Keep the creative gears turning on something close to your project but not your actual project. Maybe this is writing a brief few paragraphs of "what if"s scenes for your characters, or maybe it's drawing some fanart for something else you love. Whatever you feel like!
+    
+        - Go back to the drawing board. This doesn't mean starting again, it just means going back to your planning and looking over things again. See if there's anything you want to change, or just check over the things you've done.
+    
+        - Play your own game. Hit the launch button and play through what you already have, even if it isn't anywhere near done. Seeing the parts in place and looking at how it is coming together can be great motivation to keep going to make it better, and it's also handy to keep testing for bugs and keep an eye out for errors.
+        """
+
+File "game/Scripts/script.rpy", line 14: Only one say menuitem may exist per menu.
+    p "This tutorial game won't cover anything in detail, like how to learn Ren'py code, because other tutorials have that covered in far better detail than I could ever hope to. You'll find links later or in the About section of the main menu."
+                                                                                                                                                                                                                                                     ^
+
+File "game/Scripts/script.rpy", line 36: Say menuitems and captions may not exist in the same menu.
+    p "So we might want to make a pipeline of the jobs we need to do, but what exactly does a Visual Novel need?"
+                                                                                                                 ^
+
+File "game/Scripts/script.rpy", line 143: expected statement.
+    "What is marketing, and how do I approach marketing with an Indie VN?":
+                                                                          ^
+
+File "game/Scripts/script.rpy", line 145: expected statement.
+    "What are the last things I should be doing to finish my game before releasing it?":
+                                                                                       ^
+
+File "game/Scripts/script.rpy", line 147: expected statement.
+    "How do I build and release my game when it is complete?":
+                                                             ^
+
+File "game/Scripts/script.rpy", line 150: expected statement.
+    "Go back to Section Selection":
+                                  ^
+
+File "game/Scripts/script.rpy", line 154: expected statement.
+    "Go back to Section Selection":
+                                  ^
+
+File "game/Scripts/script.rpy", line 158: expected statement.
+    "Go back to Section Selection":
+                                  ^
+
+File "game/Scripts/script.rpy", line 163: expected statement.
+    "Tutorials and Guides":
+                          ^
+
+File "game/Scripts/script.rpy", line 165: expected statement.
+    "Assets":
+            ^
+
+File "game/Scripts/script.rpy", line 167: expected statement.
+    "Communities":
+                 ^
+
+File "game/Scripts/script.rpy", line 170: expected statement.
+    "Go back to Section Selection":
+                                  ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.15s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3080 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 516.59'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(2379, 1338) drawable=(2379, 1338)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 1170.14s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.07s
+Loading save slot metadata. took 0.00s
+Loading persistent took 0.00s
+
+File "game/Scripts/overviews.rpy", line 156: end of line expected.
+(Perhaps you left out a " at the end of the first line.)
+    pn """
+         ^
+        Ideas to help you get motivated:
+        
+        - Listen to music. Headphones can also help to tune out distractions and get you focusing in on the work at hand. Pick some playlists, make some new ones, or just put something on that makes you feel inspired.
+    
+        - Play some games. No, really! Either replay that VN that inspired you to make your own, or play some new VN games that you haven't played before. The secret part here is you can class it as research by making a few notes on tropes/features that you like/dislike and want to include/avoid in your game!
+    
+        - Switch tasks. If you're working on more than one part of your game (for example, writing and background art) then if you're hitting a creative wall on one task switch to a different task. Go back to the other one when you feel ready to. Variety can help the work feel fresh and interesting.
+    
+        - Talk to people. Dev communities, like the Ren'py discord server, can be really good places to find motivation and inspiration. Talk to your team if you have one too, but if you're a solo dev you can really increase your chances of finishing your project by talking to fellow developers about the process.
+    
+        - Take a break. Walk away, put it down, and do something completely different. Unless you're working on a jam or a tight deadline, taking time off from development is not always a bad idea. Tell yourself you're going back to it later, but for the here and now you're going to have a little holiday. Then when you go back, you'll be more refreshed and ready to go.
+    
+        - Do something related to development, but not on your project. Keep the creative gears turning on something close to your project but not your actual project. Maybe this is writing a brief few paragraphs of "what if"s scenes for your characters, or maybe it's drawing some fanart for something else you love. Whatever you feel like!
+    
+        - Go back to the drawing board. This doesn't mean starting again, it just means going back to your planning and looking over things again. See if there's anything you want to change, or just check over the things you've done.
+    
+        - Play your own game. Hit the launch button and play through what you already have, even if it isn't anywhere near done. Seeing the parts in place and looking at how it is coming together can be great motivation to keep going to make it better, and it's also handy to keep testing for bugs and keep an eye out for errors.
+        """
+
+File "game/Scripts/script.rpy", line 14: Only one say menuitem may exist per menu.
+    p "This tutorial game won't cover anything in detail, like how to learn Ren'py code, because other tutorials have that covered in far better detail than I could ever hope to. You'll find links later or in the About section of the main menu."
+                                                                                                                                                                                                                                                     ^
+
+File "game/Scripts/script.rpy", line 36: Say menuitems and captions may not exist in the same menu.
+    p "So we might want to make a pipeline of the jobs we need to do, but what exactly does a Visual Novel need?"
+                                                                                                                 ^
+
+File "game/Scripts/script.rpy", line 143: expected statement.
+    "What is marketing, and how do I approach marketing with an Indie VN?":
+                                                                          ^
+
+File "game/Scripts/script.rpy", line 145: expected statement.
+    "What are the last things I should be doing to finish my game before releasing it?":
+                                                                                       ^
+
+File "game/Scripts/script.rpy", line 147: expected statement.
+    "How do I build and release my game when it is complete?":
+                                                             ^
+
+File "game/Scripts/script.rpy", line 150: expected statement.
+    "Go back to Section Selection":
+                                  ^
+
+File "game/Scripts/script.rpy", line 154: expected statement.
+    "Go back to Section Selection":
+                                  ^
+
+File "game/Scripts/script.rpy", line 158: expected statement.
+    "Go back to Section Selection":
+                                  ^
+
+File "game/Scripts/script.rpy", line 163: expected statement.
+    "Tutorials and Guides":
+                          ^
+
+File "game/Scripts/script.rpy", line 165: expected statement.
+    "Assets":
+            ^
+
+File "game/Scripts/script.rpy", line 167: expected statement.
+    "Communities":
+                 ^
+
+File "game/Scripts/script.rpy", line 170: expected statement.
+    "Go back to Section Selection":
+                                  ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.15s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3080 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 516.59'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(2379, 1338) drawable=(2379, 1338)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 1267.81s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.07s
+Loading save slot metadata. took 0.00s
+Loading persistent took 0.00s
+
+File "game/Scripts/overviews.rpy", line 156: end of line expected.
+(Perhaps you left out a " at the end of the first line.)
+    pn """
+         ^
+        Ideas to help you get motivated:
+        
+        - Listen to music. Headphones can also help to tune out distractions and get you focusing in on the work at hand. Pick some playlists, make some new ones, or just put something on that makes you feel inspired.
+    
+        - Play some games. No, really! Either replay that VN that inspired you to make your own, or play some new VN games that you haven't played before. The secret part here is you can class it as research by making a few notes on tropes/features that you like/dislike and want to include/avoid in your game!
+    
+        - Switch tasks. If you're working on more than one part of your game (for example, writing and background art) then if you're hitting a creative wall on one task switch to a different task. Go back to the other one when you feel ready to. Variety can help the work feel fresh and interesting.
+    
+        - Talk to people. Dev communities, like the Ren'py discord server, can be really good places to find motivation and inspiration. Talk to your team if you have one too, but if you're a solo dev you can really increase your chances of finishing your project by talking to fellow developers about the process.
+    
+        - Take a break. Walk away, put it down, and do something completely different. Unless you're working on a jam or a tight deadline, taking time off from development is not always a bad idea. Tell yourself you're going back to it later, but for the here and now you're going to have a little holiday. Then when you go back, you'll be more refreshed and ready to go.
+    
+        - Do something related to development, but not on your project. Keep the creative gears turning on something close to your project but not your actual project. Maybe this is writing a brief few paragraphs of "what if"s scenes for your characters, or maybe it's drawing some fanart for something else you love. Whatever you feel like!
+    
+        - Go back to the drawing board. This doesn't mean starting again, it just means going back to your planning and looking over things again. See if there's anything you want to change, or just check over the things you've done.
+    
+        - Play your own game. Hit the launch button and play through what you already have, even if it isn't anywhere near done. Seeing the parts in place and looking at how it is coming together can be great motivation to keep going to make it better, and it's also handy to keep testing for bugs and keep an eye out for errors.
+        """
+
+File "game/Scripts/script.rpy", line 14: Only one say menuitem may exist per menu.
+    p "This tutorial game won't cover anything in detail, like how to learn Ren'py code, because other tutorials have that covered in far better detail than I could ever hope to. You'll find links later or in the About section of the main menu."
+                                                                                                                                                                                                                                                     ^
+
+File "game/Scripts/script.rpy", line 36: Say menuitems and captions may not exist in the same menu.
+    p "So we might want to make a pipeline of the jobs we need to do, but what exactly does a Visual Novel need?"
+                                                                                                                 ^
+
+File "game/Scripts/script.rpy", line 143: expected statement.
+    "What is marketing, and how do I approach marketing with an Indie VN?":
+                                                                          ^
+
+File "game/Scripts/script.rpy", line 145: expected statement.
+    "What are the last things I should be doing to finish my game before releasing it?":
+                                                                                       ^
+
+File "game/Scripts/script.rpy", line 147: expected statement.
+    "How do I build and release my game when it is complete?":
+                                                             ^
+
+File "game/Scripts/script.rpy", line 150: expected statement.
+    "Go back to Section Selection":
+                                  ^
+
+File "game/Scripts/script.rpy", line 154: expected statement.
+    "Go back to Section Selection":
+                                  ^
+
+File "game/Scripts/script.rpy", line 158: expected statement.
+    "Go back to Section Selection":
+                                  ^
+
+File "game/Scripts/script.rpy", line 163: expected statement.
+    "Tutorials and Guides":
+                          ^
+
+File "game/Scripts/script.rpy", line 165: expected statement.
+    "Assets":
+            ^
+
+File "game/Scripts/script.rpy", line 167: expected statement.
+    "Communities":
+                 ^
+
+File "game/Scripts/script.rpy", line 170: expected statement.
+    "Go back to Section Selection":
+                                  ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.15s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3080 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 516.59'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(2379, 1338) drawable=(2379, 1338)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 1298.10s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.07s
+Loading save slot metadata. took 0.00s
+Loading persistent took 0.00s
+
+File "game/Scripts/overviews.rpy", line 156: end of line expected.
+(Perhaps you left out a " at the end of the first line.)
+    pn """
+         ^
+        Ideas to help you get motivated.
+        
+        - Listen to music. Headphones can also help to tune out distractions and get you focusing in on the work at hand. Pick some playlists, make some new ones, or just put something on that makes you feel inspired.
+    
+        - Play some games. No, really! Either replay that VN that inspired you to make your own, or play some new VN games that you haven't played before. The secret part here is you can class it as research by making a few notes on tropes/features that you like/dislike and want to include/avoid in your game!
+    
+        - Switch tasks. If you're working on more than one part of your game (for example, writing and background art) then if you're hitting a creative wall on one task switch to a different task. Go back to the other one when you feel ready to. Variety can help the work feel fresh and interesting.
+    
+        - Talk to people. Dev communities, like the Ren'py discord server, can be really good places to find motivation and inspiration. Talk to your team if you have one too, but if you're a solo dev you can really increase your chances of finishing your project by talking to fellow developers about the process.
+    
+        - Take a break. Walk away, put it down, and do something completely different. Unless you're working on a jam or a tight deadline, taking time off from development is not always a bad idea. Tell yourself you're going back to it later, but for the here and now you're going to have a little holiday. Then when you go back, you'll be more refreshed and ready to go.
+    
+        - Do something related to development, but not on your project. Keep the creative gears turning on something close to your project but not your actual project. Maybe this is writing a brief few paragraphs of "what if"s scenes for your characters, or maybe it's drawing some fanart for something else you love. Whatever you feel like!
+    
+        - Go back to the drawing board. This doesn't mean starting again, it just means going back to your planning and looking over things again. See if there's anything you want to change, or just check over the things you've done.
+    
+        - Play your own game. Hit the launch button and play through what you already have, even if it isn't anywhere near done. Seeing the parts in place and looking at how it is coming together can be great motivation to keep going to make it better, and it's also handy to keep testing for bugs and keep an eye out for errors.
+        """
+
+File "game/Scripts/script.rpy", line 14: Only one say menuitem may exist per menu.
+    p "This tutorial game won't cover anything in detail, like how to learn Ren'py code, because other tutorials have that covered in far better detail than I could ever hope to. You'll find links later or in the About section of the main menu."
+                                                                                                                                                                                                                                                     ^
+
+File "game/Scripts/script.rpy", line 36: Say menuitems and captions may not exist in the same menu.
+    p "So we might want to make a pipeline of the jobs we need to do, but what exactly does a Visual Novel need?"
+                                                                                                                 ^
+
+File "game/Scripts/script.rpy", line 143: expected statement.
+    "What is marketing, and how do I approach marketing with an Indie VN?":
+                                                                          ^
+
+File "game/Scripts/script.rpy", line 145: expected statement.
+    "What are the last things I should be doing to finish my game before releasing it?":
+                                                                                       ^
+
+File "game/Scripts/script.rpy", line 147: expected statement.
+    "How do I build and release my game when it is complete?":
+                                                             ^
+
+File "game/Scripts/script.rpy", line 150: expected statement.
+    "Go back to Section Selection":
+                                  ^
+
+File "game/Scripts/script.rpy", line 154: expected statement.
+    "Go back to Section Selection":
+                                  ^
+
+File "game/Scripts/script.rpy", line 158: expected statement.
+    "Go back to Section Selection":
+                                  ^
+
+File "game/Scripts/script.rpy", line 163: expected statement.
+    "Tutorials and Guides":
+                          ^
+
+File "game/Scripts/script.rpy", line 165: expected statement.
+    "Assets":
+            ^
+
+File "game/Scripts/script.rpy", line 167: expected statement.
+    "Communities":
+                 ^
+
+File "game/Scripts/script.rpy", line 170: expected statement.
+    "Go back to Section Selection":
+                                  ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.15s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3080 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 516.59'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(2379, 1338) drawable=(2379, 1338)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 1300.14s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.07s
+Loading save slot metadata. took 0.00s
+Loading persistent took 0.00s
+
+File "game/Scripts/overviews.rpy", line 156: end of line expected.
+(Perhaps you left out a " at the end of the first line.)
+    pn """
+         ^
+        Ideas to help you get motivated.
+        
+        - Listen to music. Headphones can also help to tune out distractions and get you focusing in on the work at hand. Pick some playlists, make some new ones, or just put something on that makes you feel inspired.
+    
+        - Play some games. No, really! Either replay that VN that inspired you to make your own, or play some new VN games that you haven't played before. The secret part here is you can class it as research by making a few notes on tropes/features that you like/dislike and want to include/avoid in your game!
+    
+        - Switch tasks. If you're working on more than one part of your game (for example, writing and background art) then if you're hitting a creative wall on one task switch to a different task. Go back to the other one when you feel ready to. Variety can help the work feel fresh and interesting.
+    
+        - Talk to people. Dev communities, like the Ren'py discord server, can be really good places to find motivation and inspiration. Talk to your team if you have one too, but if you're a solo dev you can really increase your chances of finishing your project by talking to fellow developers about the process.
+    
+        - Take a break. Walk away, put it down, and do something completely different. Unless you're working on a jam or a tight deadline, taking time off from development is not always a bad idea. Tell yourself you're going back to it later, but for the here and now you're going to have a little holiday. Then when you go back, you'll be more refreshed and ready to go.
+    
+        - Do something related to development, but not on your project. Keep the creative gears turning on something close to your project but not your actual project. Maybe this is writing a brief few paragraphs of "what if"s scenes for your characters, or maybe it's drawing some fanart for something else you love. Whatever you feel like!
+    
+        - Go back to the drawing board. This doesn't mean starting again, it just means going back to your planning and looking over things again. See if there's anything you want to change, or just check over the things you've done.
+    
+        - Play your own game. Hit the launch button and play through what you already have, even if it isn't anywhere near done. Seeing the parts in place and looking at how it is coming together can be great motivation to keep going to make it better, and it's also handy to keep testing for bugs and keep an eye out for errors.
+        """
+
+File "game/Scripts/script.rpy", line 14: Only one say menuitem may exist per menu.
+    p "This tutorial game won't cover anything in detail, like how to learn Ren'py code, because other tutorials have that covered in far better detail than I could ever hope to. You'll find links later or in the About section of the main menu."
+                                                                                                                                                                                                                                                     ^
+
+File "game/Scripts/script.rpy", line 36: Say menuitems and captions may not exist in the same menu.
+    p "So we might want to make a pipeline of the jobs we need to do, but what exactly does a Visual Novel need?"
+                                                                                                                 ^
+
+File "game/Scripts/script.rpy", line 143: expected statement.
+    "What is marketing, and how do I approach marketing with an Indie VN?":
+                                                                          ^
+
+File "game/Scripts/script.rpy", line 145: expected statement.
+    "What are the last things I should be doing to finish my game before releasing it?":
+                                                                                       ^
+
+File "game/Scripts/script.rpy", line 147: expected statement.
+    "How do I build and release my game when it is complete?":
+                                                             ^
+
+File "game/Scripts/script.rpy", line 150: expected statement.
+    "Go back to Section Selection":
+                                  ^
+
+File "game/Scripts/script.rpy", line 154: expected statement.
+    "Go back to Section Selection":
+                                  ^
+
+File "game/Scripts/script.rpy", line 158: expected statement.
+    "Go back to Section Selection":
+                                  ^
+
+File "game/Scripts/script.rpy", line 163: expected statement.
+    "Tutorials and Guides":
+                          ^
+
+File "game/Scripts/script.rpy", line 165: expected statement.
+    "Assets":
+            ^
+
+File "game/Scripts/script.rpy", line 167: expected statement.
+    "Communities":
+                 ^
+
+File "game/Scripts/script.rpy", line 170: expected statement.
+    "Go back to Section Selection":
+                                  ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.15s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3080 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 516.59'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(2379, 1338) drawable=(2379, 1338)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 1397.87s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.08s
+Loading save slot metadata. took 0.00s
+Loading persistent took 0.00s
+
+File "game/Scripts/script.rpy", line 14: Only one say menuitem may exist per menu.
+    p "This tutorial game won't cover anything in detail, like how to learn Ren'py code, because other tutorials have that covered in far better detail than I could ever hope to. You'll find links later or in the About section of the main menu."
+                                                                                                                                                                                                                                                     ^
+
+File "game/Scripts/script.rpy", line 36: Say menuitems and captions may not exist in the same menu.
+    p "So we might want to make a pipeline of the jobs we need to do, but what exactly does a Visual Novel need?"
+                                                                                                                 ^
+
+File "game/Scripts/script.rpy", line 143: expected statement.
+    "What is marketing, and how do I approach marketing with an Indie VN?":
+                                                                          ^
+
+File "game/Scripts/script.rpy", line 145: expected statement.
+    "What are the last things I should be doing to finish my game before releasing it?":
+                                                                                       ^
+
+File "game/Scripts/script.rpy", line 147: expected statement.
+    "How do I build and release my game when it is complete?":
+                                                             ^
+
+File "game/Scripts/script.rpy", line 150: expected statement.
+    "Go back to Section Selection":
+                                  ^
+
+File "game/Scripts/script.rpy", line 154: expected statement.
+    "Go back to Section Selection":
+                                  ^
+
+File "game/Scripts/script.rpy", line 158: expected statement.
+    "Go back to Section Selection":
+                                  ^
+
+File "game/Scripts/script.rpy", line 163: expected statement.
+    "Tutorials and Guides":
+                          ^
+
+File "game/Scripts/script.rpy", line 165: expected statement.
+    "Assets":
+            ^
+
+File "game/Scripts/script.rpy", line 167: expected statement.
+    "Communities":
+                 ^
+
+File "game/Scripts/script.rpy", line 170: expected statement.
+    "Go back to Section Selection":
+                                  ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.15s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3080 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 516.59'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(2379, 1338) drawable=(2379, 1338)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 1495.66s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata. took 0.00s
+Loading persistent took 0.00s
+
+File "game/Scripts/script.rpy", line 38: Say menuitems and captions may not exist in the same menu.
+    p "So we might want to make a pipeline of the jobs we need to do, but what exactly does a Visual Novel need?"
+                                                                                                                 ^
+
+File "game/Scripts/script.rpy", line 145: expected statement.
+    "What is marketing, and how do I approach marketing with an Indie VN?":
+                                                                          ^
+
+File "game/Scripts/script.rpy", line 147: expected statement.
+    "What are the last things I should be doing to finish my game before releasing it?":
+                                                                                       ^
+
+File "game/Scripts/script.rpy", line 149: expected statement.
+    "How do I build and release my game when it is complete?":
+                                                             ^
+
+File "game/Scripts/script.rpy", line 152: expected statement.
+    "Go back to Section Selection":
+                                  ^
+
+File "game/Scripts/script.rpy", line 156: expected statement.
+    "Go back to Section Selection":
+                                  ^
+
+File "game/Scripts/script.rpy", line 160: expected statement.
+    "Go back to Section Selection":
+                                  ^
+
+File "game/Scripts/script.rpy", line 165: expected statement.
+    "Tutorials and Guides":
+                          ^
+
+File "game/Scripts/script.rpy", line 167: expected statement.
+    "Assets":
+            ^
+
+File "game/Scripts/script.rpy", line 169: expected statement.
+    "Communities":
+                 ^
+
+File "game/Scripts/script.rpy", line 172: expected statement.
+    "Go back to Section Selection":
+                                  ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.15s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3080 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 516.59'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(2379, 1338) drawable=(2379, 1338)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 1762.36s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata. took 0.00s
+Loading persistent took 0.00s
+
+File "game/Scripts/script.rpy", line 182: expected menuitem
+    return
+    ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.15s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3080 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 516.59'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+Screen sizes: virtual=(1920, 1080) physical=(2379, 1338) drawable=(2379, 1338)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Resetting cache.
+Bootstrap to the start of init.init took 1782.13s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.07s
 Loading save slot metadata. took 0.00s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Program Files\\renpy-8.0.1-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.02s
+Running init code took 0.09s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Jen\\AppData\\Roaming/RenPy/backups\\So You Want To Make a VN':
 Dump and make backups. took 0.02s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
@@ -22,13 +1042,42 @@ Initial gc. took 0.01s
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.13s
+Creating interface object took 0.12s
 Cleaning stores took 0.00s
-Init translation took 0.01s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.02s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3080 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 516.59'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2379, 1338) drawable=(2379, 1338)
+Could not open 'cache/shaders.txt':
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
 Build styles took 0.00s
 Load screen analysis took 0.01s
 Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.02s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s

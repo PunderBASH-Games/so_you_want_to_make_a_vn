@@ -5,11 +5,13 @@ label start:
 menu:
     "General Kenobi...":
         p "Haha, 10 points to you for the reference, friend! My name is Mr Placeholder, because the writer of this mini project is very bad at names. And art. And lots of things."
+        jump start2
     "Hi?...":
         p "Nice to meet you, friend! My name is Mr Placeholder, because the writer of this mini project is very bad at names. And art. And lots of things."
     "Skip to the menus, please." if persistent_firstcomplete:
         jump menu1
 
+label start2:
     p "Anyway, you want to make your very own Visual Novel Game, right? Well here's the basics of what you might want to include, as well as some frequently asked about topics in the Indie Dev community."
     p "This tutorial game won't cover anything in detail, like how to learn Ren'py code, because other tutorials have that covered in far better detail than I could ever hope to. You'll find links later or in the About section of the main menu."
     p "Lots of projects get started, but some never make it to the finish line. This could be for many reasons, but sometimes it's because we don't realise all of the little parts that are needed for a finished game - even a small one has more to it than you might think!"
@@ -22,6 +24,7 @@ menu:
     "I know what a Pipeline is.":
         p "Great, we'll move on then! You might want to make notes as this project will cover the main topics you'll want to think about including in your own pipeline."
         p "Remember to work out your Alpha, Beta, Silver and Gold targets, and be prepared to alter your goals as you go along if you need to."
+        jump after_pipelines
     
     "I don't know what a Pipeline is, can you tell me?":
         p "Of course!"
@@ -32,7 +35,9 @@ menu:
         p "Think about Beta testing for mainstream games - things can still change from Beta but a lot of the main concept and design is there."
         p "The last 2 stages are Silver and Gold. Silver will need almost everything in place, with only final testing and checks before you reach Gold. Think Gold Standard as the final target to release your complete game."
         p "Don't worry if you don't stick to your initial outline plan - it's there to help you, so change it and adapt it as needed."
+        jump after_pipelines
 
+label after_pipelines:
     p "So we might want to make a pipeline of the jobs we need to do, but what exactly does a Visual Novel need?"
     p "That can vary a lot from person to person and what you prefer, so I'm going to break this down into a bunch of menus so you're able to pick and choose the topics you want to read about and what order you'd like to read them."
     p "If this is your first time making a VN, it's probably best to look over every topic and what you need to do to make it."
@@ -139,26 +144,41 @@ menu:
     "Go back to Section Selection":
         jump menu1
 label finishing_menu:
+menu:
     "Which topic would you like to view next?"
     "What is marketing, and how do I approach marketing with an Indie VN?":
         jump marketing
-    ""
+    "What are the last things I should be doing to finish my game before releasing it?":
+        jump finishing_touches
+    "How do I build and release my game when it is complete?":
+        jump building_releasing
+    
     "Go back to Section Selection":
         jump menu1
 label code_menu:
+menu:
     "Which topic would you like to view next?"
     "Go back to Section Selection":
         jump menu1
 label access_menu:
+menu:
     "Which topic would you like to view next?"
     "Go back to Section Selection":
         jump menu1
 label resources_menu:
+menu:
     "Which topic would you like to view next?"
+    #links to other websites - go through every topic and pull out a few links
+    "Tutorials and Guides":
+        jump resources_tut
+    "Assets":
+        jump resources_assets
+    "Communities":
+        jump resources_communities
+    #""
     "Go back to Section Selection":
         jump menu1
 
-    return
 
 
 #### false story, gerald and the haunted moon?

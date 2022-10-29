@@ -93,7 +93,7 @@ label content_age:
     """
     nvl clear 
     #continue from here, add content warning shit. Why give warnings, what warnings to give, how to provide warnings without spoiling surprises, etc
-    """
+    pn """
     A Brief Guide to Content Warnings
 
     Aside from age ratings, you may also want to consider content warnings. 
@@ -104,7 +104,7 @@ label content_age:
 
     Of course, sometimes you might not want to be too specific because a specific content warning might spoil a big plot twist in your game! But this is where you can allow the players the option to view content warnings if they want to or skip them if they don't.
 
-    You can do this by having basic content warnings on your main store page (for example, "this game contains violence and graphic imagery"), and then have a link to another page which would show people more detail on the specifics they might encounter if they know there are things they would not want to encounter in a game.
+    You can do this by having basic content warnings on your main store page (for example, \"this game contains violence and graphic imagery\"), and then have a link to another page which would show people more detail on the specifics they might encounter if they know there are things they would not want to encounter in a game.
 
     You can also do this inside your game, by using some nested labels and even warning people that the specifics may spoil some of your surprises. 
 
@@ -203,6 +203,8 @@ label general_legal:
     Keep your age rating and relevant content warnings clear, concise, and easy to access. Be aware that your age rating might differ across regions or even online release platforms. 
 
     Again, if you are in any doubt, seek expert legal advice from someone with knowledge and experience of the relevant countries/regions. 
+
+    As a final general note, those of you who are using places like Kickstarter or Patreon to raise funds for your project will need to be careful that your project does not break the terms of service for those sites. 
 
     """
     nvl clear 

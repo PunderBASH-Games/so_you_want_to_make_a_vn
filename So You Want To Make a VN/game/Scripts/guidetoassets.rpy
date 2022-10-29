@@ -47,7 +47,8 @@ label assets_list:
     
 label assets_get:
     p "Which method would you like to view?"
-    menu: "Which method would you like to view?"
+    menu: 
+        "Which method would you like to view?"
         "Making my own assets.":
             jump make_assets
         "Finding free to use assets.":
