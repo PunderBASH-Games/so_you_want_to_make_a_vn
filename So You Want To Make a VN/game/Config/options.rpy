@@ -30,6 +30,17 @@ define config.version = "1.0"
 ## triple-quotes, and leave a blank line between paragraphs.
 
 define gui.about = _p("""
+This project is intended to act as a rough beginners guide and FAQ for people hoping to develop their own Visual Novel Game using Ren'py. We hope it will be a helpful resource for those looking to dive in to Indie VN dev, but it is by no means a list of hard rules or a complete tutorial for how to make a game.
+
+This project is also not associated officially with Ren'py or any other website, and the team have not received any financial or other incentives to make it or to link to external websites. We are also not accountable for the content of external websites or games accessed through the links or resources within this project.
+
+Some topics mentioned may apply to using other engines to create Visual Novel Games, but this has been written with Ren'py in mind. The resources linked are also designed for Ren'py.
+
+All images and items used within this project are property of PunderBash Games unless otherwise specified, and no assets are available for use or distribution without the express permission of the licence holders.
+
+This project is made with love and enthusiasm for the Indie Visual Novel Community, with thanks to the Ren'py Discord Server for their help and support for so many of us who stumble headfirst into making our dream games. It is the community who are often able to help turn those dreams into a reality, and we hope to see many more achieve their goals alongside us. 
+
+Good luck and have fun!
 """)
 
 
@@ -48,7 +59,7 @@ define build.name = "SoYouWantToMakeaVN"
 
 define config.has_sound = True
 define config.has_music = True
-define config.has_voice = True
+define config.has_voice = False
 
 
 ## To allow the user to play a test sound on the sound or voice channel,

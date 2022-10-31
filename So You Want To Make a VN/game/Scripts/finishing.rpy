@@ -60,6 +60,24 @@ label marketing:
     Some of you might be considering using things like Kickstarter or Patreon to help fund your project, and this will need to be planned in advance too. If you make promises for content you need to know you can deliver on this, and to be able to deliver on time particularly with subscription based models like Patreon. It may be tempting to add more stretch goals and features, but be certain you're able to meet these first.
 
     You will also need to stick to the terms and conditions of those websites, too. Make sure that your content will be suitable for the fundraising platforms, just as you will when looking at release platforms.
+
+    One key to your marketing can also be in how you present your sales page. It's strongly advised to have several screenshots and at least a short teaser trailer video showing some of your game.
+
+    You'll likely do better having a solid trailer to show people what to expect with the features, quality, and style of the game. This may mean you need a YouTube account to host the video to be able to show it on sites like itch.io - this should ideally be separate to your personal channel or any channels you have for non-VN content. 
+    
+    You may want to familiarise yourself with screen recording software like OBS, or a similar capture software that allows you to record an application or display. 
+    
+    You can even build your demo in Ren'py using the assets from your game and some clever uses of transitions, transforms, and other cinematography within Ren'py itself to record. This is best done in a separate new project, unless you have the trailer as an extra feature inside the final game for people to view from the menu.
+
+    How you approach it is up to you, but screenshots, demos, and trailer videos are a great way to get players interested in your product and can be a powerful marketing tool.
+
+    One final tool to mention for games that are being sold is the potential to give free copies out to a handful of reviewers or even streamers. 
+    
+    It's unlikely a first time game dev will get the notice of a big name with millions of followers unless they already have connections, but you can look to review websites for your genre of game and streamers with a modest but reasonable following who have streamed games similar to yours in the past. 
+
+    There's no guarantee people will take up your free copies, or provide the boost in sales you're hoping for, but if you happen to catch the right person and they (and their audience) enjoy what you have to offer, you could gain yourself some notice and popularity that you might otherwise not have found.
+
+    Keep in mind that streamers and reviewers might get a lot of these offers, so it's possible they may not have the time or energy to respond to yours. It's worth a shot, but be polite, courteous, and don't flood anyone's inboxes with reminders. The last thing you need is a negative shout out! 
     """
     nvl clear
     nvl hide
@@ -74,12 +92,92 @@ label finishing_touches:
     p "You should be testing your game at various points through development to check things are working and to make edits where needed, which can be done by pressing the Launch Game button on the Ren'py launcher menu."
     p "By the time you're getting close to making your final build, you should have been through every single possible option and made sure there are no big bugs that will break your game."
     p "You can also use the Lint checker in the Ren'py menu to help you find errors, but this isn't a substitute for proper testing."
-    p "When you're ready, you will want to make the builds for your game."
+    p "If you are having other people testing your game, check out the beta testing section of the previous menu after you're done here."
+    p "When you're ready and certain almost every bug has been squashed, you will need to make the builds for your game."
     p "Which builds you make will depend on where you want to release your game. The main ones people tend to do with Ren'py will be Windows, Mac, and Linux."
     p "The launcher also allows you to build for Andriod and iOS, but these may require more work. For example, if the game is to be compatible with mobile devices, it may need to have the GUI and images redesigned to suit the smaller screen size."
     p "For that reason, as well as the difficulty of ensuring Android builds will be fully compatible with the huge array of different mobile phones on the market, it is less common for games to be released in those formats. It is something to consider ahead of time."
     p "Ideally, you will want to be able to test the constructed builds on each of the systems you have made the game for prior to uploading them to your chosen release platforms. Be extra certain that everything functions as intended. It's better to take the time to check than to have unhappy players later!"
     p "Before you make those builds though, go back to your planning and to-do lists. Is there anything that got missed? Has everyone been properly credited? Are you happy with the quality of all the assets used in the project?"
     p "Then finally, once everything is done and uploaded, your game is on the release platforms and all your marketing and advertising has been scheduled/posted..."
-    p "Then it's time to celebrate! Sit back, relax, have a nice cup of tea and a bit of cake, and above all try and resist the temptation to obsess over the download numbers."
-    p "It might be very easy to sit there and keep hitting refresh and get "
+    p "Then it's time to celebrate! Sit back, relax, have a nice cup of tea and a bit of cake if that's something you enjoy, and above all try and resist the temptation to obsess over the download numbers."
+    p "It might be very easy to sit there and keep hitting refresh and get caught up in tying your worth and your game's worth to how many downloads/sales you get, but this can quickly become overwhelming if things don't happen how you imagined."
+    p "Step back and enjoy the fact that you have completed and published a game! Everything else is a bonus. Of course you may want to recoup your expenses, but it can be very unpredictable when/how a game will gain traction and make sales."
+    p "Give it a week or so and if you feel something really isn't going well for you, it might be a good idea to revisit your marketing strategies and/or look at any reviews or feedback you've received so far."
+    p "With reviews, too, try not to take anything too personally. Some people won't enjoy you're game, but that doesn't mean the game is bad!" 
+    p "There are lots of players out there and lots of individual tastes and preferences, pleasing everyone is impossible, but the fans you do gain can be really supportive and enthusiastic for your game and any future projects you have in mind."
+    p "Is there anything else you'd like to see?"
+    jump finishing_menu
+
+
+label using_feedback:
+    p "So you have your game at a stage ready to give to testers...but how can you get useful feedback on your game?"
+    p "Before you give any demo builds to testers, you should decide what feedback you're actually looking for from the testing, so you can instruct them on how to present this feedback."
+    p "How about we do another of our lovely full screen windows? Yes?"
+    pn """
+    Testers and Testing - Your Overview of Feedback
+
+    There's a few types of feedback you might need for your project at different stages, so let's break those down first.
+
+    - Writing and Story. This would mean things like the overall writing quality, looking for plotholes, whether the story as a whole makes sense to the reader. It may also include things like pacing (whether the story progresses to quickly or too slowly) and sensitivity reading for difficult topics.
+
+    - Character Writing and Dialogue. You may want to know how your characters are coming across to the players. Whether they have unique and recognisable voices, if their personalities are being interpreted in the way you intended, and if their dialogue is well balanced (no one character talking far more than any other in places where it should be more even).
+
+    - Character Design. This one you may want to look at feedback on earlier in the process, around the concept stage. That said, you can still look at feedback later on, and also with things like whether the sprite expressions match the moods of the characters at the appropriate times.
+
+    - Background Design. This again might be one that's harder to act on later down the line, but it is probably good to know whether the backgrounds suit the story and if they interfere with the other on screen visuals like the GUI, dialogue, and sprites. You may be able to adjust the backgrounds by editing brightness and contrast, or applying a slight filter over the top of them, which can help with visibility of other assets.
+
+    - Music and Sound. Knowing whether the volume is well balanced for players is going to be important, and whether your sound effects are adding to the story or becoming intrusive or unwelcome. Some players might always opt to turn off the music or disable the sound effects, which is a valid player choice, but you may well want some feedback on this from people who generally leave them on.
+
+    - GUI. How usable your interface is could potentially make or break a game. Players need to be able to see and use all the important functions, like save/load, preferences menus, and main menus. The font also needs to be legible to the majority of your audience, as well as fitting the tone of your game. A fanciful curly handwriting script might look lovely as a style choice, but if it's hard to read it's no good for your potential fans! 
+
+    - Accessibility. This will depend on which accessibility options you want to feature, but I strongly recommend considering utilising them even if they're things you don't usually use yourself. Things like the built-in Self Voicing that Ren'py has by default is a big one that may need testing, which we will go over in more detail in the Accessibility section.
+
+    - Mini Games and Extra Features. If you have mini games or extra features, you'll need to know how well they function. Do players find them too easy or too difficult? Do they know what to do or do you need to add more instruction in the game for them? Do all of your features do what you wanted them to do, and do they add to the game experience or are they too much?
+
+    - Errors and Typos. This might be the obvious one, but you should have a way for players to alert you to any game breaking bugs, visual errors, or typos you have. This might be the more awkward one to fix, but you could add in a testing feedback box to help players flag errors in a usable way for you to action later. There will be a link to an example on this in resources!
+    """
+    nvl clear
+    nvl hide
+    p "Alright so now we know what topics we need to cover, but how?"
+    p "One fairly solid method is to create a questionnaire for your testers to fill out once they've finished. Google Forms or similar sites can make this pretty simple to collect and look at the results."
+    p "Some things you may want to ask multiple choice questions, and other places it might be better to leave a larger text box space for the tester to explain their feedback."
+    p "It is up to you how you gather feedback, but you should know what you want to know and ensure that testers have a way to give you those answers in a way you can utilise to improve your game."
+    p "Unfortunately, if you don't let testers know what you're looking for with feedback, you may only hear things like:"
+    "Playtester 1" "Yeah I really enjoyed the game, can't wait for the full release."
+    "Playtester B" "My favourite character was [p] but I felt like there were too many spelling mistakes."
+    "Playtester %" "I didn't find any errors or points where the game didn't work. It all ran smoothly, no crashes."
+    p "Of course some of that feedback might be useful, but it could be a lot more detailed or specific to things you can change and work on."
+    p "You might also find that there's some feedback you don't want to act on, where you disagree with a tester's opinion about something, and that's fine - you should be making a game you are happy to make."
+    p "However, if multiple testers have an issue with the same thing, it might be worth considering other options for how to approach changing that part or how to edit the game to fix the specific part they were less fond of."
+    p "Once you've made changes, and/or progressed to the next development milestone, it's a good idea to see if your testers will give it another go and see if the improvements you've made have worked out as intended."
+    p "Like with other roles, it might be difficult to find good testers willing to work for free, and particularly if you're project is a longer one you may need to consider putting a small budget aside to pay for a couple of experienced people to give you useful feedback."
+    p "It's about time we went on to a new topic though, right?"
+    jump finishing_menu
+
+
+label building_releasing:
+    p "Building the game is a vital step before release. It is worth keeping in mind that you're strongly advised to update to the latest main release of Ren'py before progressing with your build." 
+    p "When you're making your VN, you can play test it by hitting the \"Launch Project\" button in the Ren'py menu, but that's not how players will be using your game."
+    p "Your players will be downloading a completed game that has been compiled, so all of the folders you have made and script files won't be accessible within the game folder."
+    # Unless they've decompiled your game or you've shared the source code somewhere, which must be how you're reading this. Or you could be my co-developer, HI MYLES YOU'RE FANTASTIC! *Cue frantic waving at the screen*....you can't see through the screen back in time. Ah. Well. Moving on!
+    p "You'll be using the option \"Build Distributions\" to compile your game. It's strongly recommended to test everything before you commit to a build, and I'm not the expert you need to tell you exactly how to do this!"
+    p "There are full instructions on the {b}{a=https://www.renpy.org/doc/html/build.html}Official Ren'py Documentation{/a}{/b} which will go over how to name your build, how to include or exclude your files from the resulting game folders, and various other functions like building different packages for special editions and bonus content."
+    p "You will need a build for each platform you release on, and it is strongly recommended that you test the game functions on each platform before you fully release it." 
+    p "You should also make a note of the minimum system requirements for a standard game, and consider if you need to raise this for your game (eg, if it requires more disk space to run due to file sizes or added features)."
+    p "Once you have your builds, it's going to be time to get them on your release platforms."
+    p "Make sure you comply with all rules and regulations for the platform(s) you are using, including age ratings and content warnings where appropriate."
+    p "It is also worth thinking about when you want your release to go live. Platforms like Steam can take weeks to get your game approved and uploaded, so you may need to take this into account before releasing or making any release announcements."
+    p "Other places, like itch.io, may allow you to pretty instantly make your project available for your audience to download and play with no fees. This can make it a popular release platform for new developers, although itch does have a smaller audience and userbase than mainstream platforms like Steam."
+    p "You'll also want to check your budget. Steam and other large platforms often carry a fee for developers to release with them, even for games that are fully free to play."
+    p "Check in the terms and conditions too, as some may refund developers after they reach a certain number of downloads."
+    p "Some platforms might even have ongoing fees to maintain your game's presence on there, which I believe is the case for iOS. So you'd have to pay to keep your game on there each year, even if the game is free for people to download and play."
+    p "Some of these fees are in place to reduce malware and scam products, and others will help to cover the running costs of the platform and general hosting of your game."
+    p "For those looking to sell their game for a profit, this will be an important point to research before releasing to balance the cost/benefit of using various different platforms."
+    p "You may well also need to have different sized promotional images for the product pages on these sites, as well as for game listing sites like {b}{a=https://vndb.org}VNDB Visual Novel Database{/a}{/b} and {b}{a=https://www.igdb.com}IGDB Internet Game Database{/a}{/b} which you may wish to submit your game details to."
+    p "As mentioned in marketing, you'll need to give some thought to how you design these store pages and what you'd like to write for the game's info to get people interested in playing."
+    p "It's good to plan ahead for your release, rather than leaving it as an afterthought for when everything else is done."
+    p "That covers as much as we can here for builds and releasing though, besides what has been mentioned in Marketing and other sections. So what to learn next?"
+    jump finishing_menu
+
+

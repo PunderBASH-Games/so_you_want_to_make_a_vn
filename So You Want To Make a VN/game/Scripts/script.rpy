@@ -148,21 +148,36 @@ menu:
     "Which topic would you like to view next?"
     "What is marketing, and how do I approach marketing with an Indie VN?":
         jump marketing
-    "What are the last things I should be doing to finish my game before releasing it?":
-        jump finishing_touches
+    "How about Beta Testing? How do I find testers and work with them for usable feedback?":
+        jump using_feedback
     "How do I build and release my game when it is complete?":
         jump building_releasing
-    
+    "What are the last things I should be doing to finish my game before releasing it?":
+        jump finishing_touches    
     "Go back to Section Selection":
         jump menu1
 label code_menu:
 menu:
     "Which topic would you like to view next?"
+    "How much do I need to know about code to make a basic Ren'py game? What are the basic tips to start?":
+        jump code_know
+    "What code do I need to know to use more of Ren'py and add extra features?":
+        jump code_extra
+    "Where can I go to learn about Ren'py code?":
+        jump code_learn
     "Go back to Section Selection":
         jump menu1
 label access_menu:
 menu:
     "Which topic would you like to view next?"
+    "What is accessibility and why do we need it?":
+        jump access_what
+    "What is the built-in self-voicing feature and how can I use it?":
+        jump access_selfvoice
+    "What are the other ways I can make my game more accessible?":
+        jump access_other
+    "How can I include multiple languages and translate my game?":
+        jump access_language
     "Go back to Section Selection":
         jump menu1
 label resources_menu:
@@ -175,6 +190,9 @@ menu:
         jump resources_assets
     "Communities":
         jump resources_communities
+    "Useful Tools and Software":
+        jump assets_tools
+    
     #""
     "Go back to Section Selection":
         jump menu1
